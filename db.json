@@ -1,0 +1,125 @@
+{
+  "users": [
+    {
+      "username": "test",
+      "id": "2220179d-afd8-4013-9057-80b1d4f96db0"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Training",
+      "color": "#FF7373",
+      "userId": "2220179d-afd8-4013-9057-80b1d4f96db0",
+      "id": "04e37c18-aa27-42a0-8e27-31bfcde58716"
+    },
+    {
+      "name": "School",
+      "color": "#FFD700",
+      "userId": "2220179d-afd8-4013-9057-80b1d4f96db0",
+      "id": "99521716-62ce-4365-9ff9-f29f3279d6cb"
+    },
+    {
+      "name": "Office",
+      "color": "#008080",
+      "userId": "2220179d-afd8-4013-9057-80b1d4f96db0",
+      "id": "647b88e5-5888-4137-ab1d-f98b50637b88"
+    }
+  ],
+  "tasks": [
+    {
+      "title": "JavaScript exercise",
+      "projectId": "99521716-62ce-4365-9ff9-f29f3279d6cb",
+      "id": "7397ea27-6315-4a1d-903e-a1a807cd9d42"
+    },
+    {
+      "title": "Watch React tutorial video",
+      "projectId": "99521716-62ce-4365-9ff9-f29f3279d6cb",
+      "id": "58b4c280-5120-42e4-9323-be5a37480f4c"
+    },
+    {
+      "title": "TypeScript Tutorial",
+      "projectId": "99521716-62ce-4365-9ff9-f29f3279d6cb",
+      "id": "5b5955f2-830b-411f-be9c-62319284a19f"
+    },
+    {
+      "title": "Running",
+      "projectId": "04e37c18-aa27-42a0-8e27-31bfcde58716",
+      "id": "f7a8d5da-97a3-4777-9e9d-c5b6551a218b"
+    },
+    {
+      "title": "Swimming",
+      "projectId": "04e37c18-aa27-42a0-8e27-31bfcde58716",
+      "id": "5ed2e434-54b4-4412-b9bf-1ad9c210cf11"
+    },
+    {
+      "title": "Singing",
+      "projectId": "04e37c18-aa27-42a0-8e27-31bfcde58716",
+      "id": "4d5b221e-d072-49b9-9e17-b29ddb41205e"
+    },
+    {
+      "title": "Walking",
+      "projectId": "04e37c18-aa27-42a0-8e27-31bfcde58716",
+      "id": "fd0f8cc5-4697-4e56-9f15-7c55b870a891"
+    },
+    {
+      "title": "Cleaning",
+      "projectId": "647b88e5-5888-4137-ab1d-f98b50637b88",
+      "id": "d6ecb188-d97b-493d-aec0-a012353909dc"
+    },
+    {
+      "title": "Planning",
+      "projectId": "647b88e5-5888-4137-ab1d-f98b50637b88",
+      "id": "427cf991-08d3-4d65-9842-f9e5ef97df6d"
+    }
+  ],
+  "logs": [
+    {
+      "taskId": "f7a8d5da-97a3-4777-9e9d-c5b6551a218b",
+      "start": "Tue Oct 24 2022 17:30:52 GMT+0200 (Central European Summer Time)",
+      "end": "Tue Oct 24 2022 17:45:52 GMT+0200 (Central European Summer Time)",
+      "id": "88af9da9-8f1b-4a20-8c47-e7338730bf7c"
+    },
+    {
+      "taskId": "5ed2e434-54b4-4412-b9bf-1ad9c210cf11",
+      "start": "Tue Oct 25 2022 16:59:54 GMT+0200 (Central European Summer Time)",
+      "end": null,
+      "id": "7f5d91f0-0272-48d8-9736-3bd9aab8f656"
+    },
+    {
+      "taskId": "5b5955f2-830b-411f-be9c-62319284a19f",
+      "start": "Wed Oct 26 2022 09:45:49 GMT+0200 (Central European Summer Time)",
+      "end": null,
+      "id": "202dd3f9-d952-49c6-9947-51f204fbcef0"
+    },
+    {
+      "taskId": "5b5955f2-830b-411f-be9c-62319284a19f",
+      "start": "Thu Oct 27 2022 13:32:09 GMT+0200 (Central European Summer Time)",
+      "end": null,
+      "id": "e11f3e58-e82d-4553-a9b9-5ecbbf69c35e"
+    },
+    {
+      "taskId": "fd0f8cc5-4697-4e56-9f15-7c55b870a891",
+      "start": "Thu Oct 27 2022 13:32:36 GMT+0200 (Central European Summer Time)",
+      "end": null,
+      "id": "99781a94-8cc1-4369-86d7-623ec004284b"
+    },
+    {
+      "taskId": "a6d63fbc-5efe-4936-905e-94f1d175e78b",
+      "start": "Fri Oct 28 2022 10:15:15 GMT+0200 (Central European Summer Time)",
+      "end": null,
+      "id": "c2a0a3ef-9ac5-43e5-bc71-3b2b5cbde54b"
+    },
+    {
+      "taskId": "a6d63fbc-5efe-4936-905e-94f1d175e78b",
+      "start": "Fri Oct 28 2022 10:15:15 GMT+0200 (Central European Summer Time)",
+      "end": null,
+      "id": "2e50bb24-3050-42bd-8777-20272afdf0aa"
+    },
+    {
+      "taskId": "a6d63fbc-5efe-4936-905e-94f1d175e78b",
+      "start": "Fri Oct 28 2022 10:15:15 GMT+0200 (Central European Summer Time)",
+      "end": null,
+      "id": "4f6e0ef3-934f-4a1a-833f-f624740c9131"
+    }
+  ]
+}
