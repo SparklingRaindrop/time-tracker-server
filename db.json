@@ -117,6 +117,30 @@
       "start": "Thu Oct 27 2022 13:32:36 GMT+0200 (Central European Summer Time)",
       "end": null,
       "id": "99781a94-8cc1-4369-86d7-623ec004284b"
+    },
+    {
+      "taskId": "5ed2e434-54b4-4412-b9bf-1ad9c210cf11",
+      "start": "Tue Nov 21 2022 16:59:54 GMT+0200 (Central European Summer Time)",
+      "end": "Tue Nov 21 2022 17:45:52 GMT+0200 (Central European Summer Time)",
+      "id": "7f5d91f0-0272"
+    },
+    {
+      "taskId": "5b5955f2-830b-411f-be9c-62319284a19f",
+      "start": "Wed Oct 26 2021 09:45:49 GMT+0200 (Central European Summer Time)",
+      "end": "Tue Oct 26 2021 17:45:52 GMT+0200 (Central European Summer Time)",
+      "id": "202dd3f9-d952-49c6-9947"
+    },
+    {
+      "taskId": "5b5955f2-830b-411f-be9c-62319284a19f",
+      "start": "Thu Oct 24 2022 13:32:09 GMT+0200 (Central European Summer Time)",
+      "end": "Thu Oct 24 2022 14:00:09 GMT+0200 (Central European Summer Time)",
+      "id": "e11f3e58-e82d-4553-a9b9-5ecbb"
+    },
+    {
+      "taskId": "fd0f8cc5-4697-4e56-9f15-7c55b870a891",
+      "start": "Thu Oct 27 2021 13:32:36 GMT+0200 (Central European Summer Time)",
+      "end": "Thu Oct 27 2021 13:50:36 GMT+0200 (Central European Summer Time)",
+      "id": "99781a94-8cc1-4369-86d"
     }
   ],
   "invoices": [
