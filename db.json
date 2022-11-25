@@ -10,19 +10,22 @@
       "name": "Training",
       "color": "#FF7373",
       "userId": "2220179d-afd8-4013-9057-80b1d4f96db0",
-      "id": "04e37c18-aa27-42a0-8e27-31bfcde58716"
+      "id": "04e37c18-aa27-42a0-8e27-31bfcde58716",
+      "wage": 180
     },
     {
       "name": "School",
       "color": "#FFD700",
       "userId": "2220179d-afd8-4013-9057-80b1d4f96db0",
-      "id": "99521716-62ce-4365-9ff9-f29f3279d6cb"
+      "id": "99521716-62ce-4365-9ff9-f29f3279d6cb",
+      "wage": 250
     },
     {
       "name": "Office",
       "color": "#008080",
       "userId": "2220179d-afd8-4013-9057-80b1d4f96db0",
-      "id": "647b88e5-5888-4137-ab1d-f98b50637b88"
+      "id": "647b88e5-5888-4137-ab1d-f98b50637b88",
+      "wage": 150
     }
   ],
   "tasks": [
@@ -75,20 +78,32 @@
   "logs": [
     {
       "taskId": "f7a8d5da-97a3-4777-9e9d-c5b6551a218b",
-      "start": "Tue Oct 24 2022 17:30:52 GMT+0200 (Central European Summer Time)",
-      "end": "Tue Oct 24 2022 17:45:52 GMT+0200 (Central European Summer Time)",
+      "start": "Tue Nov 24 2022 17:30:52 GMT+0200 (Central European Summer Time)",
+      "end": "Tue Nov 24 2022 17:45:52 GMT+0200 (Central European Summer Time)",
+      "id": "88af9da9-8f1b-40bf7c"
+    },
+    {
+      "taskId": "f7a8d5da-97a3-4777-9e9d-c5b6551a218b",
+      "start": "Tue Nov 23 2022 17:30:52 GMT+0200 (Central European Summer Time)",
+      "end": "Tue Nov 23 2022 17:45:52 GMT+0200 (Central European Summer Time)",
       "id": "88af9da9-8f1b-4a20-8c47-e7338730bf7c"
     },
     {
       "taskId": "5ed2e434-54b4-4412-b9bf-1ad9c210cf11",
-      "start": "Tue Oct 25 2022 16:59:54 GMT+0200 (Central European Summer Time)",
-      "end": null,
+      "start": "Tue Nov 21 2022 16:59:54 GMT+0200 (Central European Summer Time)",
+      "end": "Tue Nov 21 2022 17:45:52 GMT+0200 (Central European Summer Time)",
       "id": "7f5d91f0-0272-48d8-9736-3bd9aab8f656"
+    },
+    {
+      "taskId": "5ed2e434-54b4-4412-b9bf-1ad9c210cf11",
+      "start": "Tue Nov 21 2022 16:59:54 GMT+0200 (Central European Summer Time)",
+      "end": "Tue Nov 21 2022 17:45:52 GMT+0200 (Central European Summer Time)",
+      "id": "7f5d91f0-0272-48d8"
     },
     {
       "taskId": "5b5955f2-830b-411f-be9c-62319284a19f",
       "start": "Wed Oct 26 2022 09:45:49 GMT+0200 (Central European Summer Time)",
-      "end": null,
+      "end": "Tue Nov 13 2022 17:45:52 GMT+0200 (Central European Summer Time)",
       "id": "202dd3f9-d952-49c6-9947-51f204fbcef0"
     },
     {
@@ -102,24 +117,80 @@
       "start": "Thu Oct 27 2022 13:32:36 GMT+0200 (Central European Summer Time)",
       "end": null,
       "id": "99781a94-8cc1-4369-86d7-623ec004284b"
+    }
+  ],
+  "invoices": [
+    {
+      "status": "Paid",
+      "due": "Thu Oct 27 2022 13:32:36 GMT+0200 (Central European Summer Time)",
+      "total": 3000,
+      "client": {
+        "userId": "2220179d-afd8-4013-9057-80b1d4f96db0"
+      },
+      "id": "123"
     },
     {
-      "taskId": "a6d63fbc-5efe-4936-905e-94f1d175e78b",
-      "start": "Fri Oct 28 2022 10:15:15 GMT+0200 (Central European Summer Time)",
-      "end": null,
-      "id": "c2a0a3ef-9ac5-43e5-bc71-3b2b5cbde54b"
+      "status": "Not Paid",
+      "due": "2022-12-23T15:52:23.482Z",
+      "total": 6010,
+      "client": {
+        "userId": "2220179d-afd8-4013-9057-80b1d4f96db0"
+      },
+      "id": "cf3c45a8-6d8a-4da6-a504-08e79bb0c1cd"
     },
     {
-      "taskId": "a6d63fbc-5efe-4936-905e-94f1d175e78b",
-      "start": "Fri Oct 28 2022 10:15:15 GMT+0200 (Central European Summer Time)",
-      "end": null,
-      "id": "2e50bb24-3050-42bd-8777-20272afdf0aa"
+      "status": "Not Paid",
+      "due": "2022-12-23T15:52:29.634Z",
+      "total": 6010,
+      "client": {
+        "userId": "2220179d-afd8-4013-9057-80b1d4f96db0"
+      },
+      "id": "66cf1ee4-9906-4eb4-9b3e-8b2a5a5ebc9b"
     },
     {
-      "taskId": "a6d63fbc-5efe-4936-905e-94f1d175e78b",
-      "start": "Fri Oct 28 2022 10:15:15 GMT+0200 (Central European Summer Time)",
-      "end": null,
-      "id": "4f6e0ef3-934f-4a1a-833f-f624740c9131"
+      "status": "Not Paid",
+      "due": "2022-12-24T10:51:35.519Z",
+      "total": 13140,
+      "client": {
+        "userId": "2220179d-afd8-4013-9057-80b1d4f96db0"
+      },
+      "id": "44b65351-f959-4721-9763-0aad561d050d"
+    },
+    {
+      "status": "Paid",
+      "due": "Thu Oct 27 2021 13:32:36 GMT+0200 (Central European Summer Time)",
+      "total": 3000,
+      "client": {
+        "userId": "2220179d-afd8-4013-9057-80b1d4f96db0"
+      },
+      "id": "123456"
+    },
+    {
+      "status": "Not Paid",
+      "due": "2021-12-23T15:52:23.482Z",
+      "total": 6010,
+      "client": {
+        "userId": "2220179d-afd8-4013-9057-80b1d4f96db0"
+      },
+      "id": "cf3c45a8-6d8a-4da6-a504"
+    },
+    {
+      "status": "Not Paid",
+      "due": "2021-12-23T15:52:29.634Z",
+      "total": 6010,
+      "client": {
+        "userId": "2220179d-afd8-4013-9057-80b1d4f96db0"
+      },
+      "id": "66cf1ee4-9906-4eb4-9b3e"
+    },
+    {
+      "status": "Not Paid",
+      "due": "2021-12-24T10:51:35.519Z",
+      "total": 13140,
+      "client": {
+        "userId": "2220179d-afd8-4013-9057-80b1d4f96db0"
+      },
+      "id": "44b65351-f959-4721"
     }
   ]
 }
